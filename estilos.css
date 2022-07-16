@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    background-color: #fff;
+    color: #fff;
+}
+
+header {
+    background-color: #fff;
+}
+
+.maior-banner1 {
+    min-height: 40px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner1 {
+    height: 100%;
+    width: 80%;
+    background-color: #000;
+    color: #838383;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.maior-pesquisa {
+    min-height: 100px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pesquisa {
+    height: 100%;
+    width: 80%;
+    background-color: #fff;
+    color: #838383;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.maior-menu {
+    min-height: 60px;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+
+}
+
+.maior-banner2 {
+    min-height: 60px;
+    background-color: #dddddd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galery {
+    /*width: 1922px;
+    height: 500px;
+    width: 640px;
+    height: 360px;*/
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    background-color: #dddddd;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    border: none;
+}
+
+.galery .fotos img {
+    width: 19.94%;
+}
